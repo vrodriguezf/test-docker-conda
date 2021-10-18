@@ -1,0 +1,32 @@
+name: python-gpu-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - bokeh
+  - cudatoolkit
+  - datashader
+  - gh
+  - git
+  - holoviews
+  - hvplot
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - matplotlib
+  - numba
+  - numpy
+  - panel
+  - pip
+  - pip:
+    - -r requirements.txt
+  - pyarrow
+  - python
+  - python-language-server
+  - pyviz_comms
+  - wandb
+  - xeus-python
